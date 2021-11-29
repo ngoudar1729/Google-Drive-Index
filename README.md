@@ -59,5 +59,6 @@ const uiConfig = {
 };
 ```
 ### Credits:
-
+- [sawankumar](https://github.com/sawankumar)
 - [5MayRain](https://github.com/5MayRain) 
+- [maple3142](https://github.com/maple3142)
