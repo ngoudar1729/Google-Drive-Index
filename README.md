@@ -8,6 +8,24 @@
 
 Supports features such as multi-disk, search, pagination and call-to-external player, plus DPlayer playback.
 
+### Deployment
+### Simple and automatic
+* Go https://gdindex-code-builder.maple3142.net/, and follow its instructions.
+* Copy the content of worker/worker.js to CloudFlare Workers.
+* Fill refresh_token, root_folder_id and other options on the top of the script from step 1.
+
+### Manual way
+### Method 1: Rclone
+
+Install rclone
+Setup your Google Drive: https://rclone.org/drive/
+* Run rclone config file to find your rclone.conf location
+* Find refresh_token in your rclone.conf, and root_folder_id too(optionally).
+* Copy the content of worker/worker.js to CloudFlare Workers.
+* Fill refresh_token, root_folder_id and other options on the top of the script.
+* Deploy!
+
+### Method 2:
 ### Manual Method to generate Client ID, Client Secret and Refresh Token
 
 * Open https://console.developers.google.com/apis/credentials
