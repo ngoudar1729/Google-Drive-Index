@@ -12,7 +12,7 @@ Supports features such as multi-disk, search, pagination and call-to-external pl
 ### Simple and automatic
 * Go https://gdindex-code-builder.maple3142.net/, and follow its instructions.
 * Copy the content of worker/worker.js to CloudFlare Workers.
-* Fill refresh_token, root_folder_id and other options on the top of the script from step 1.
+* Fill refresh_token, root_folder_id and other options step 1.
 
 ### Manual way
 ### Method 1: Rclone
