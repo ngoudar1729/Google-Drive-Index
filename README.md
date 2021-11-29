@@ -12,13 +12,13 @@ Supports features such as multi-disk, search, pagination and call-to-external pl
 ### Simple and automatic
 * Go https://gdindex-code-builder.maple3142.net/, and follow its instructions.
 * Copy the content of worker/worker.js to CloudFlare Workers.
-* Fill refresh_token, root_folder_id and other options step 1.
+* Fill client id, client secret, refresh_token, root_folder_id and other options from step 1 in workers.js.
 
 ### Manual way
 ### Method 1: Rclone
 
-Install rclone
-Setup your Google Drive: https://rclone.org/drive/
+* Install rclone
+* Setup your Google Drive: https://rclone.org/drive/
 * Run rclone config file to find your rclone.conf location
 * Find refresh_token in your rclone.conf, and root_folder_id too(optionally).
 * Copy the content of worker/worker.js to CloudFlare Workers.
@@ -60,4 +60,6 @@ const uiConfig = {
 ```
 ### Credits:
 
+- [sawankumar](https://github.com/sawankumar)
 - [5MayRain](https://github.com/5MayRain) 
+- [maple3142](https://github.com/maple3142)
